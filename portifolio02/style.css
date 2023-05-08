@@ -1,0 +1,42 @@
+body{
+    background-color: #412744;
+}
+main{ 
+    background-color:#412744;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+.card{
+    display: flex;
+    border-radius: 10px;
+    margin-left: 5px;
+    height: 120px;
+    background-color: #fff;
+    flex: 1;
+    transition: 0.4s;
+    text-align: center;
+    
+}
+.card:hover{
+    flex: 2;
+    background-color: rgb(207, 207, 207);
+}
+ion-icon{
+    color: black;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 50px;
+    
+
+    
+    
+}
